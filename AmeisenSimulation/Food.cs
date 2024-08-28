@@ -1,10 +1,10 @@
-namespace ArmeisenSimulation;
+namespace AmeisenSimulation;
 
 public class Food : Object
 {
     public Food()
     {
-        Console.SetCursorPosition(Position.x, Position.y);
+        Console.SetCursorPosition(Position.X, Position.Y);
         Console.WriteLine("*");
     }
 }
